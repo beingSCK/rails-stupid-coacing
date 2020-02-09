@@ -1,0 +1,34 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.message-container {
+  width: 400px;
+  margin: 32px;
+}
+
+.message {
+  margin: 8px;
+  padding: 8px;
+
+  p {
+    margin: 8px;
+  }
+
+  font-family: sans-serif;
+  background-color: rgb(249, 249, 249);
+  border-left: 4px solid rgb(240, 240, 240);
+
+  &:hover {
+    background-color: rgb(240, 240, 220);
+  }
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
